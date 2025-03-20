@@ -11,6 +11,7 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
   font-family: "Figtree", sans-serif;
+  overflow: hidden;
 }
 
 .container {
@@ -44,6 +45,7 @@ header {
   background: linear-gradient(270deg, #ce1710 0%, #de7e0f 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin-left: -19px;
 }
 
 main {
@@ -99,7 +101,7 @@ h1 {
   display: flex;
   margin-bottom: 0.5rem;
   position: relative;
-  height: 60px;
+  height: 68px;
 }
 
 .input-group-pl::placeholder {
@@ -136,6 +138,7 @@ input[type="email"] {
   transition: background-color 0.3s;
   font-family: "Figtree", sans-serif;
   transition: transform 0.2s ease-in-out;
+  height: 59px;
 }
 
 .notify-btn:hover {
@@ -160,7 +163,7 @@ input[type="email"] {
 .social-icons {
   display: flex;
   gap: 1rem;
-  margin-top: 9rem;
+  margin-top: 8rem;
   column-gap: 40px;
 }
 
