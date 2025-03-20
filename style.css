@@ -11,7 +11,6 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
   font-family: "Figtree", sans-serif;
-  overflow: hidden;
 }
 
 .container {
@@ -216,7 +215,13 @@ input[type="email"] {
   display: none;
 }
 
-/* Responsive Design */
+@media (max-width: 500px){
+
+  .small_h{
+    text-wrap: auto;
+  }
+}
+
 @media (min-width: 900px) and (max-width: 1200px) {
   .content_rights {
     width: 73vw;
