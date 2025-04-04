@@ -44,6 +44,7 @@ body {
   max-width: 620px;
   height: auto;
   transform-origin: center;
+  margin-right: 35px;
 }
 h1 {
   font-family: Figtree, sans-serif;
