@@ -28,7 +28,7 @@ body {
   justify-content: flex-start;
   text-align: center;
   overflow-x: hidden;
-  position: relative; /* Add position relative */
+  position: relative; 
 }
 .illustration-container {
   margin-bottom: 2rem;
@@ -36,12 +36,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden; /* Contain the scaled image */
-  position: relative; /* For positioning */
+  overflow: hidden; 
+  position: relative;
 }
 .main-illustration {
   width: 100%;
-  max-width: 620px; /* Base max width */
+  max-width: 620px;
   height: auto;
   transform-origin: center;
 }
@@ -53,14 +53,14 @@ h1 {
   letter-spacing: 0;
   margin-bottom: 2.5rem;
   color: #2F2F2F;
-  position: relative; /* Add position */
-  z-index: 2; /* Place above image if needed */
+  position: relative; 
+  z-index: 2;
 }
 #notify-form{
   width: 55%;
   max-width: 100%;
-  position: relative; /* Add position */
-  z-index: 2; /* Place above image if needed */
+  position: relative; 
+  z-index: 2;
 }
 .input-group {
   display: flex;
@@ -79,7 +79,7 @@ h1 {
   font-size: 24px;
   line-height: 100%;
   letter-spacing: 0%;
-  color: #2f2f2f;
+  color: #606060;
 }
 input[type="email"] {
   flex: 1;
@@ -130,11 +130,11 @@ input[type="email"] {
   }
  
   .illustration-container {
-    max-width: 800px; /* Larger container */
+    max-width: 800px;
   }
   .main-illustration {
     max-width: none;
-    width: 700px; /* Much larger image */
+    width: 700px;
   }
   #notify-form {
     width: 95%;
@@ -145,7 +145,7 @@ input[type="email"] {
     max-width: 100%;
   }
   .main-illustration {
-    width: 530px; /* Larger image on mobile */
+    width: 530px; 
     max-width: none;
   }
   .notify-btn{
