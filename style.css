@@ -63,7 +63,6 @@ h1 {
   width: 100%;
   height: 72px;
   border-radius: 50px;
-  overflow: hidden;
   background: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
 }
@@ -134,13 +133,27 @@ input[type="email"] {
   }
   
   .illustration-container {
-    max-width: 300px;
+    width: 700px;
   }
+
+  #notify-form {
+    width: 95%;
+  }
+
 }
 
 @media (max-width: 576px) {
+
+  .illustration-container {
+    width: 530px;
+  }
+
+  .notify-btn{
+    margin: 0;
+  }
+
   .container {
-    padding: 1rem;
+    padding: 0 0.1rem;
   }
 
   h1 {
